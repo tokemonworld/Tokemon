@@ -15,3 +15,13 @@ Tokémon (TM) is an Ethereum ERC-20 Standard Compliant Token. It is the first ev
 - Being a meme / parody token, the core activities of Tokémon users revolves around memeing online, which in turn increases it's value through the spreading of interest in the token. 
 - Tokémon uses a unique MINING and DISTRIBUTION system and works hand in hand with it's core meme / parody token concept. The only way to get Tokémon is through providing exposure (which is the version of mining Tokémon  implements), and the users who do it the most get the most tokens in return. Essentially a merit based system.
 - The supply and demand is controlled in a way that assures scarcity, so as to increase the demand and overall value of Tokémon.
+
+## What is the Tokémon distribution system? And how does it work?
+
+The Tokemon Distribution System is the model used to distribute tokens to users based off of merit. Users who help grow the coin through Tokemons unique form of mining get Tokemon in exchange. There will not be an ICO. Here are some details so as to understand the distribution system:
+- Total Maximum Supply: 151 000 000 (151 million Tokemon)
+- When the token is launched, everyone starts off with 0 Tokemon, and then the process of mining defines to whom the tokens are distributed to.
+- The mining process is done through users giving Tokemon exposure, whether it be through memeing on reddit, making youtube videos, or inviting users directly to discord. The process needs to be measureable, and only activities included in the #📙mining section give Tokemon.
+- 5% of Tokemon go to the Tokemon team. They are given whenever tokens are being distributed to other miners. For instance, if 95000 tokemon are given at the end of the week to miners, 5000 are given to the Tokemon team, making a total of 100 000.
+- The amount of Tokemon distributed per week varies so as to be able to adjust the fine line between rewards for exposure and keeping the scarcity of the token so as to keep supply low and demand high. 
+- The distribution process happens in two stages: 1) before launch; 2) after launch. Before the Launch of Tokemon, specific goals will need to be meet. Once the launch takes place, Tokemon will continue to reward participants for exposure.
