@@ -1,5 +1,6 @@
 # Tokemon
 [![Discord](https://github.com/tokemonworld/Tokemon/blob/master/images/discord4.png "https://discord.gg/xT25Rsf")](https://discord.gg/xT25Rsf)
+[![Reddit](https://github.com/tokemonworld/Tokemon/blob/master/images/reddit.png "https://www.reddit.com/r/tokemon/")](https://www.reddit.com/r/tokemon/)
 
 ![Prof Toak](https://github.com/tokemonworld/Tokemon/blob/master/images/Toak%20intro2.png "Prof Toak has a message for you:")
 
