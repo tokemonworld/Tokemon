@@ -25,3 +25,8 @@ The Tokemon Distribution System is the model used to distribute tokens to users 
 - 5% of Tokemon go to the Tokemon team. They are given whenever tokens are being distributed to other miners. For instance, if 95000 tokemon are given at the end of the week to miners, 5000 are given to the Tokemon team, making a total of 100 000.
 - The amount of Tokemon distributed per week varies so as to be able to adjust the fine line between rewards for exposure and keeping the scarcity of the token so as to keep supply low and demand high. 
 - The distribution process happens in two stages: 1) before launch; 2) after launch. Before the Launch of Tokemon, specific goals will need to be meet. Once the launch takes place, Tokemon will continue to reward participants for exposure.
+
+## What is Tokémon's variation of mining?
+
+TL;DR: Making YouTube videos, inviting users to the discord, memes on reddit, and more.
+In a nutshell, actions that grow the community base of Tokémon are rewarded with Tokens. It's important that each action is measurable. The Mining Chart keeps an updated list of activities and the value of tokens they produce. Each action produces a certain amount of points, and there is a conversation rate of points to Tokens. Please check out the [discord channel](https://discord.gg/xT25Rsf) for the specific details.
