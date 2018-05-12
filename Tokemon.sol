@@ -25,6 +25,13 @@ contract Tokemon is ERC20Interface {
     uint256 public decimals;
     mapping (address => uint256) public balances;
     mapping (address => mapping (address => uint256)) public allowed;
+    
+// ----------------------------------------------------------------------------
+// The wilderness address is used to burn coins. Coins transfered there 
+// can not be transfered elsewhere thanks to conditionals put in place
+// in the functions: transfer, approve transferFrom
+// ----------------------------------------------------------------------------
+    address wilderness = 0xbDBB4AC747342c303479A8876b6fDf03Ce5c6CAf;
 
   function Tokemon() public {
     symbol = "TM";
@@ -46,6 +53,7 @@ contract Tokemon is ERC20Interface {
   function transfer (address _to, uint256 _value) public returns (bool success) {
       if ( 
       _to != 0x0 //prevents the transfer to 0x0 address
+      && msg.sender != wilderness //unable to transfer from the wilderness account
       && _value > 0 //prevents 0 value transactions from taking place
       && balances[msg.sender] >= _value //confirms there is enough balance to be sent
       && balances[_to] + _value > balances[_to]) //prevents overflows
@@ -57,10 +65,17 @@ contract Tokemon is ERC20Interface {
     }
     return false;
   }
-function approve(address _spender, uint _amount) public returns (bool success) {
-      allowed[msg.sender][_spender] = _amount;
-    emit Approval(msg.sender, _spender, _amount);
-      return true;
+
+  function approve(address _spender, uint _amount) public returns (bool success) {
+    if (
+      msg.sender != wilderness //unable to approve from the wilderness account
+    ) {
+        allowed[msg.sender][_spender] = _amount;
+        emit Approval(msg.sender, _spender, _amount);
+        return true;
+    }
+    return false;
+    
   }
 
   function allowance(address _owner, address _spender) public constant returns (uint remaining){
@@ -69,7 +84,8 @@ function approve(address _spender, uint _amount) public returns (bool success) {
 
   function transferFrom(address _from, address _to, uint256 _amount) public returns (bool success) {
     if (
-      allowed[_from][msg.sender] >= _amount
+      _from != wilderness //unable to transfer from the wilderness account
+      && allowed[_from][msg.sender] >= _amount
       && balances[_from] >= _amount
       && _amount > 0) {
       allowed[_from][msg.sender] -= _amount;
@@ -81,3 +97,4 @@ function approve(address _spender, uint _amount) public returns (bool success) {
   }
 
 }
+
