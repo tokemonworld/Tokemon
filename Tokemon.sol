@@ -31,7 +31,7 @@ contract Tokemon is ERC20Interface {
 // can not be transfered elsewhere thanks to conditionals put in place
 // in the functions: transfer, approve transferFrom
 // ----------------------------------------------------------------------------
-    address wilderness = 0xbDBB4AC747342c303479A8876b6fDf03Ce5c6CAf;
+    address wilderness = 0x40831A371cF5Ad5991aA97785BDBd69928B5AdF7;
 
   function Tokemon() public {
     symbol = "TM";
